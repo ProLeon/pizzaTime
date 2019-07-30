@@ -12,7 +12,10 @@ pizzaWebsites = [
 
 $("#pizzaTime").on("click", function(){
     randNum = (Math.floor(Math.random() * pizzaWebsites.length));
-    window.location.href = pizzaWebsites[randNum];
+    document.getElementById('pizzaTimeSound').play()
+    setTimeout(function(){
+        window.location.href = pizzaWebsites[randNum];
+    }, 2400);
 });
 
 //papa johns, pizza hut, dominos, pizza ranch, papa murphy's, pizza man, chanticlear, toppers pizzas
