@@ -7,7 +7,6 @@ pizzaWebsites = [
     "https://pizzamananoka.com/",
     "https://www.chanticlearpizza.com/",
     "https://www.toppers.com/",
-    "https://www.blackpeoplemeet.com/"
 ];
 
 $("#pizzaTime").on("click", function(){
